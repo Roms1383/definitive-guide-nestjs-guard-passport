@@ -1,0 +1,10 @@
+{
+  "verbose": true,
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "testRegex": ".test.ts$",
+  "testEnvironment": "node",
+  "globalSetup": "./__tests__/beforeAll.ts",
+  "globalTeardown": "./__tests__/afterAll.ts"
+}
